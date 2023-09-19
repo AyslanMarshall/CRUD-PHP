@@ -6,6 +6,7 @@ class Contato {
         $this->pdo = new PDO("mysql:dbname=CRUD;host=127.0.0.1", "root", "");
         
     }
+    
     // CREATE
     public function adicionar($email, $nome = '') {
         // Verificar se o Email ja existe no sistema
